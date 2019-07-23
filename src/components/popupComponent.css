@@ -1,0 +1,75 @@
+.popupComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(76, 175, 159, 0.08);
+}
+.modal-container {
+    background-color: white;
+    border: 1px solid #c3cfd9;
+    width: 20%;
+    padding: 14px 10px;
+    position: relative;
+}
+.image {
+    width: 100%;
+}
+.image img {
+    width: 100%;
+}
+.cross {
+    width: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.cross img {
+    width: 100%;
+    cursor: pointer;
+}
+.name {
+    padding: 10px 0;
+}
+.price-block {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price {
+    text-decoration: line-through;
+    color: #a2adb7;
+    font-size: 13px;
+}
+.price-container {
+    text-align: center;
+}
+.current-price {
+    font-weight: bold;
+    color: #2a3845;
+}
+
+.button {
+    width: 50%;
+    text-align: right;
+}
+.button a {
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+}
+
+.buy-product {
+    display: flex;
+    padding: 10px 0 0 0;
+}
+
+.buy-product button {    
+    border-radius: 4px;
+    width: 100%;
+}
